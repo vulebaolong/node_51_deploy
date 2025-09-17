@@ -26,7 +26,7 @@ async function bootstrap() {
   app.useGlobalGuards(new PermissionGuard1(reflector));
 
   const config = new DocumentBuilder()
-    .setTitle('Cyber Community')
+    .setTitle('Cyber Community Anh Long')
     .setDescription('Cyber Community description')
     .setVersion('1.0')
     .addBearerAuth()
